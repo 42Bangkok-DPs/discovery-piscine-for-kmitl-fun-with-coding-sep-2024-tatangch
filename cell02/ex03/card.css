@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://wallpaperwaifu.com/wp-content/uploads/2020/03/warmth-pixel-thumb.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile {
+    width: 300px;
+    background: transparent;
+    backdrop-filter:blur(8px);
+    border-radius: 15px;
+    border: rgb(214, 212, 212) solid 1px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.profile h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 0 10px white);
+}
+
+.profile table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.profile table tr td {
+    padding: 10px;
+}
+
+.profile img.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    margin-bottom: 15px;
+}
+
+.login {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: rgb(243, 239, 167);
+    margin-bottom: 20px;
+}
+
+.social-icons img {
+    width: 40px;
+    margin: 6px;
+    border-radius: 20%;
+
+}
+
+.contact-btn {
+    display: inline-block;
+    width: 200px;
+    padding: 10px 10px;
+    background-color: white;
+    color: rgb(8, 0, 12);
+    font-size: larger;
+    font-family: Cambria;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.contact-btn:hover {
+    background-color: #edf9d1;
+    backdrop-filter: blur(20px);
+    filter: drop-shadow(0 0 5px white);
+}
