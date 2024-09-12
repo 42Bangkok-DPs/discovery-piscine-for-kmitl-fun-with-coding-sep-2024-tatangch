@@ -1,0 +1,32 @@
+.parallax{
+    display: flex;
+    background-image: url(https://hagerty-media-prod.imgix.net/2023/01/1967-Ford-GT40-MK-IV-11.jpeg?auto=format%2Ccompress&ixlib=php-3.3.0);
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    color:black
+    
+}
+.block{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    justify-content: center;
+    font-size: medium;
+    font-weight: 100;
+}
+.parallax2{
+    display: flex;
+    background-image: url(https://www.vdm.ford.com/content/dam/brand_ford/en_us/brand/performance/mk-iv/Mk_IV_Livery_front_quarter_Desktop.jpg/jcr:content/renditions/cq5dam.web.1440.1440.jpeg);
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    color: rgb(249, 249, 250);
+    
+}
