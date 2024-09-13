@@ -1,0 +1,53 @@
+html, body {
+    background-color:rgb(160, 191, 218);
+    margin: 0;
+    padding: 0;
+}
+
+.top-header {
+    background-color:rgb(46, 46, 46)
+}
+
+.menu-item {
+    color:aliceblue;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.brand {
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.main-content {
+    max-width: 700px;
+    margin: auto;
+
+}
+
+.box {
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 30px;
+}
+
+.image {
+    width: 100%;
+}
+
+.button {
+    color: rgb(8, 8, 8);
+    background-color: rgb(224, 224, 224);
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.bottom-footer {
+    background-color:rgb(180, 233, 220);
+    padding: 20px;
+    text-align: center;
+    
+}
+
